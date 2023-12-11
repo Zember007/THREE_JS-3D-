@@ -1,0 +1,411 @@
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Italic.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Italic.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Regular.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Italic.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Italic.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: AlumniSansCollegiateOne;
+  font-display: swap;
+  src: url("../fonts/AlumniSansCollegiateOne-Regular.woff2") format("woff2"), url("../fonts/AlumniSansCollegiateOne-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script Extras PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script Extras PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script Extras PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: MADE TheArtist Script PERSONAL USE;
+  font-display: swap;
+  src: url("../fonts/MADE TheArtist Script PERSONAL USE.woff2") format("woff2"), url("../fonts/MADE TheArtist Script PERSONAL USE.woff") format("woff");
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.wrapper {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* --------------------------- HEADER -------------------------- */
+.header {
+  background: url(../img/bg-head.svg), 50%/cover no-repeat;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header_top {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  margin-right: 55px;
+}
+
+.nav_el {
+  color: #446381;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.nav_el a {
+  transition: all 0.3s;
+}
+
+.nav_el a:hover {
+  color: #ffffff;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-image: linear-gradient(95deg, #4499D9 17.46%, #7367BE 87.77%);
+  color: #FFF;
+  font-weight: 500;
+  line-height: 24px;
+  background-position: right bottom;
+  background-size: 200% auto;
+  transition: background-position 0.3s, opacity 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: #4499D9;
+}
+
+.btn_head {
+  width: 180px;
+  height: 50px;
+}
+
+.header_bottom {
+  padding-bottom: 92px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_block-text {
+  position: relative;
+}
+
+.h1 {
+  margin-bottom: 26px;
+  color: #446381;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.h2 {
+  margin-bottom: 31px;
+  color: #EB8382;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 75px;
+  max-width: 470px;
+}
+
+.inf {
+  margin-bottom: 36px;
+  max-width: 518px;
+  color: #826F8C;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.btn_main {
+  width: 207px;
+  height: 50px;
+}
+
+.head_animation {
+  position: absolute;
+  left: 60%;
+  bottom: -30%;
+  width: 120px;
+  height: 120px;
+  animation: head-an 7s infinite linear;
+}
+
+@keyframes head-an {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.head_block-img {
+  position: relative;
+}
+
+.head_rat {
+  width: 211.488px;
+  height: 95px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_rating {
+  max-width: 102px;
+}
+
+.rating_text {
+  color: #446381;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.rating_price {
+  margin: 4.3px 0;
+  color: #EB8382;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.rat-play {
+  margin-right: 10px;
+}
+
+.head_block-rating2 {
+  position: absolute;
+  right: -6vw;
+  bottom: -20px;
+}
+
+.head_block-rating1 {
+  position: absolute;
+  left: -3vw;
+  top: -20px;
+}
+
+/* ---------------------------  About_screen ------------------------------ */
+.about_screen {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about_screen-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_screen-an-block {
+  position: relative;
+}
+
+.screen-an img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: screen-an 2s alternate infinite ease-in;
+}
+
+@keyframes screen-an {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -5%;
+  }
+}
+/* -------------------------------- about_gamepad ------------------------------ */
+.about_gamepad {
+  background: url(../img/bg-about_gamepad.svg), 50%/cover no-repeat;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.about_gamepad-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_gamepad-an-block {
+  position: relative;
+}
+.about_gamepad-an-block::before {
+  content: url(../img/icons/element_gamepad1.svg);
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  animation: el_game-an 5s infinite linear;
+}
+.about_gamepad-an-block::after {
+  content: url(../img/icons/element_gamepad2.svg);
+  position: absolute;
+  top: 130px;
+  right: 230px;
+  animation: el_game-an 5s infinite linear;
+}
+
+@keyframes el_game-an {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gamepad-an {
+  0% {
+    top: 220px;
+  }
+  100% {
+    top: 240px;
+  }
+}
+.gamepad {
+  position: absolute;
+  top: 220px;
+  animation: gamepad-an 1s infinite alternate ease-in;
+}
